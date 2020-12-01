@@ -115,7 +115,7 @@ folder_name = "NAC_ROI_ALPHNSUSLOA_E129S3581"
 
 
 # Test prediction on a single png file
-TEST_ON_ONE_FILE = False
+TEST_ON_ONE_FILE = True
 if TEST_ON_ONE_FILE:
     generate_mask(folder_name, "tile_0_0.png")
     exit()
